@@ -4,14 +4,11 @@ public abstract class Moto {
 	private String MotoNo;
 	private double fee;
 	private String type;
-	
-	
-	public double rentFee(int day){
+
+	public double rentFee(int day) {
 		return day * fee;
 	}
 
-	
-	
 	public String getType() {
 		return type;
 	}
@@ -20,10 +17,9 @@ public abstract class Moto {
 		this.type = type;
 	}
 
-	public Moto(String MotoNo){
+	public Moto(String MotoNo) {
 		this.MotoNo = MotoNo;
 	}
-	
 
 	public String getMotoNo() {
 		return MotoNo;

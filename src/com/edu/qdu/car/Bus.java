@@ -1,6 +1,6 @@
 package com.edu.qdu.car;
 
-public class Bus extends Moto{
+public class Bus extends Moto {
 	private int seatCount = 0;
 
 	public Bus(String MotoNo) {
